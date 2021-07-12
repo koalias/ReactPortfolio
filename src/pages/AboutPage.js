@@ -2,7 +2,9 @@ import React from 'react'
 
 export const AboutPage = () => {
     return (
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-5" style={{
+            height: "100%"
+        }}>
             <div className="col-span-2 px-4">
             <img className="aboutImage" src={"koalia.jpeg"}/>
             </div>
